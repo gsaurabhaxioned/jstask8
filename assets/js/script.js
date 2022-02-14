@@ -1,18 +1,10 @@
-const user_input = document.querySelectorAll('.user-input');
+const inputs = document.querySelectorAll('user-input');
 
-for(let i=0;i<user_input.length;i++){
-    user_input[i].addEventListener('focus',function(){
-        this.style.marginTop= "10px";
+for(i=0;i<inputs.length;i++){
+    inputs[i].addEventListener('focus', function(){
+        this.classList.toggle('input-focus');
     },true);
 }
-
-
-
-
-
-
-
-
 
 
 
