@@ -121,6 +121,7 @@ main {
   flex-basis: 20%;
   border-radius: 6px;
   background-color: #2A4E6C;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -142,6 +143,11 @@ input:focus {
   outline: none;
 }
 
+.email,.password {
+  padding-top: 56px;
+  box-sizing: border-box;
+}
+
 .email::after,.password::after {
   content: '';
   width: 100%;
@@ -150,8 +156,11 @@ input:focus {
   background-color: #fff;
 }
 
+label {
+  display: block;
+}
+
 label span {
-  margin: 46px 0 0 0;
   float: left;
   color: #fff;
   font-size: 18px;
