@@ -145,7 +145,7 @@ input:focus {
 }
 
 .input-focus {
-  height: 50px;
+  bottom: 60px;
 }
 
 .user-input {
