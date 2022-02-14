@@ -143,8 +143,12 @@ input:focus {
   outline: none;
 }
 
+.input-focus {
+  height: 50px;
+}
+
 .email,.password {
-  padding-top: 56px;
+  padding-top: 47px;
   box-sizing: border-box;
 }
 
@@ -157,6 +161,7 @@ input:focus {
 }
 
 label {
+  position: absolute;
   display: block;
 }
 
