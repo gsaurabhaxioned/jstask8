@@ -151,10 +151,6 @@ input:focus {
   bottom: 35px;
 }
 
-.disable-input {
-  pointer-events: none;
-}
-
 .user-input {
   position: relative;
 }
