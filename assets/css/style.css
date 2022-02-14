@@ -117,14 +117,15 @@ main {
 }
 
 .login-page {
-  padding: 39px;
-  flex-basis: 20%;
+  padding: 41px;
+  flex-basis: 25%;
   border-radius: 6px;
   background-color: #2A4E6C;
   box-sizing: border-box;
 }
 
 h1 {
+  margin-bottom: 10px;
   color: #fff;
   font-size: 34px;
   text-align: center;
@@ -147,6 +148,10 @@ input:focus {
   height: 50px;
 }
 
+.user-input {
+  position: relative;
+}
+
 .email,.password {
   padding-top: 47px;
   box-sizing: border-box;
@@ -162,6 +167,7 @@ input:focus {
 
 label {
   position: absolute;
+  bottom: 15px;
   display: block;
 }
 
