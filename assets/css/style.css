@@ -125,7 +125,6 @@ main {
 }
 
 h1 {
-  margin-bottom: 10px;
   color: #fff;
   font-size: 34px;
   text-align: center;
@@ -140,12 +139,16 @@ input {
   font-size: 18px;
 }
 
+input[type="email"],input[type="password"] {
+  height: 56px;
+}
+
 input:focus {
   outline: none;
 }
 
 .input-focus {
-  bottom: 60px;
+  bottom: 35px;
 }
 
 .user-input {
@@ -153,7 +156,7 @@ input:focus {
 }
 
 .email,.password {
-  padding-top: 47px;
+  padding-top: 25px;
   box-sizing: border-box;
 }
 
@@ -175,51 +178,63 @@ label span {
   float: left;
   color: #fff;
   font-size: 18px;
-  transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.1s;
 }
 
 .email label span:nth-child(2) {
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.2s;
 }
 
 .email label span:nth-child(3) {
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.3s;
 }
 
 .email label span:nth-child(4) {
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.4s;
 }
 
 .email label span:nth-child(5) {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.5s;
 }
 
 .password label span:nth-child(2) {
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.2s;
 }
 
 .password label span:nth-child(3) {
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.3s;
 }
 
 .password label span:nth-child(4) {
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.4s;
 }
 
 .password label span:nth-child(5) {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.5s;
 }
 
 .password label span:nth-child(6) {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.5s;
 }
 
 .password label span:nth-child(7) {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.5s;
 }
 
 .password label span:nth-child(8) {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.5s;
 }
 
 
