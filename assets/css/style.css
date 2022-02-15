@@ -150,7 +150,7 @@ input:focus {
 }
 
 .input-focus {
-  bottom: 35px;
+  top: 0;
 }
 
 .user-input {
@@ -167,6 +167,7 @@ label {
   position: absolute;
   top: 15px;
   display: block;
+  cursor: pointer;
 }
 
 label span {
