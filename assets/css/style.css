@@ -175,11 +175,10 @@ label span {
   float: left;
   color: #fff;
   font-size: 18px;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out 4s;
 }
 
 .email label span:nth-child(2) {
-  transition: all ease-in-out 1s;
   transition-delay: 0.2s;
 }
 
