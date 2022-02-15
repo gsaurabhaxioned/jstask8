@@ -1,9 +1,10 @@
-const email =document.getElementById('email').value,
+const email_value =document.getElementById('email').value,
+email = document.getElementById('email'),
 password = document.getElementById('password').value,
 error_msg = document.querySelectorAll('.error'),
 email_pattern= document.querySelector('error');
 email.addEventListener('keypress', function(){
-    if(!email.match(email_pattern)){
-        email_pattern.innerHTML="please enter valid email";
+    if(!email_value.match(email_pattern)){
+        error.innerHTML="please enter valid email";
     } 
 });
