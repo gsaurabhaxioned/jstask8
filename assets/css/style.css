@@ -149,18 +149,19 @@ input:focus {
   outline: none;
 }
 
-.input-focus {
+/* .input-focus {
   top: 0;
-}
+} */
 
 .user-input {
-  position: relative;
-}
-
-.email,.password {
   width: 90%;
   margin: 20px 0;
-  box-sizing: border-box;
+  position: relative;
+  box-sizing: border-box; 
+}
+
+.user-input input:focus + label,.user-input input:valid + label {
+  top: -10px;
 }
 
 label {
