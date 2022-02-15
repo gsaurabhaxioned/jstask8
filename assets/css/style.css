@@ -162,6 +162,7 @@ input:focus {
 
 .user-input input:focus + label,.user-input input:valid + label {
   top: -10px;
+  color: #ADD8E6;
 }
 
 label {
